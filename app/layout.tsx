@@ -47,7 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <GoogleAnalytics gaId="G-CCR887R8FM" />
       </head>
       <body className={inter.className}>
-        <AppRouterCacheProvider>
+        <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <Navigation />
           <main className="mx-auto py-14 sm:py-16">{children}</main>
           <Footer />

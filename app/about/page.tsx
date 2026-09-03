@@ -7,7 +7,7 @@ import { FaGlobe, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 interface SocialLink {
   name: string;
   url: string;
-  icon: JSX.Element;
+  icon: React.ReactElement;
 }
 
 interface Partner {
